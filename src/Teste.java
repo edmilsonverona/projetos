@@ -7,6 +7,7 @@ public class Teste {
 
         public static void main(String[] args) {
                 try {
+                	
                         Class.forName("Opensql.JDBCDriver");
                         System.out.println("teste");
 			 			 Connection c = DriverManager.getConnection("jdbc:opensql:/HST=192.168.37.117;/DSN=/home/hospub/banco/bdint;SEC=33;LEV=atua");
